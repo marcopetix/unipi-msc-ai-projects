@@ -1,0 +1,8 @@
+features,by score,by score and CPC code
+CPC,76.36,77.24
+CPC code,,75.17
+CPC+SACST,77.10,78.24
+No context,,75.71
+SACST,76.25,76.63
+SACT,78.81,79.22
+mean,77.13,77.04

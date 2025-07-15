@@ -1,0 +1,8 @@
+features,score with bce loss,score with pearson loss
+CPC,77.24,73.98
+CPC code,75.17,
+CPC+SACST,78.24,74.95
+No context,75.71,
+SACST,76.63,74.15
+SACT,79.27,77.73
+mean,77.04,75.20

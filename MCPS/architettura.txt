@@ -1,0 +1,13 @@
+La topologia dell' architettura da noi utilizzata per la realizzazione del progetto Smartbin é una topologia a "Star", 
+dove abbiamo un nodo centrale a cui sono collegati diversi nodi foglia anche detto "SensorNode" é formato da un arduino Uno a cui sono collegati i seguenti sensori:
+    1. Sensore ultrasuono: utilizzato per ottenere la capienza dei bin.
+    2. Sensore di peso: utilizzato invece per misurare la quantitá di spazzatura buttata da ogni utente.
+    3. led: quest' ultimo permette di inviare un feedbeck all' utente sullo stato del bin, infatti avrá un colore rosso nel caso il bin sia pieno ed un colore verde invece nel caso sia utilizzabile.
+    4. RFID: questo sensore viene usato per identificare gli utenti.
+    5. Modulo wi-fi: é servito per la connessione di questi nodi foglia al nodo centrale il "server".
+
+Server: raccoglie tutti i dati ricevuti dai sensori, che vengono inviati tramite procedura REST e relativo file json, una volta raccolti
+        li salva all' interno di un databse di tipo SQL 
+
+Client: Accede al server tramite chiamate HTTP e permette agli operatori di visualizzare le relative statistice sui dati raccolti dai sensori,
+        la posizione dei bin e quali di questi sono pieni e quindi hanno bisogno di essere svuotati e quali invece sono ancora utilizzabili.
