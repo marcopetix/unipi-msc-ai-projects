@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./resources/cherub_rainbow_angry.png" alt="Logo" width="200">
+</p>
+
 # University of Pisa – Master’s Projects Portfolio
 This repository collects and organizes the main projects I completed during my **Master's Degree in Computer Science (Artificial Intelligence track)** at the University of Pisa.
 
