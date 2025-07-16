@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./resources/cherub_rainbow_angry.png" alt="Logo" width="200">
+  <img src="./resources/cherub_rainbow_angry_render.png" alt="Logo" width="200">
 </p>
 
 # University of Pisa – Master’s Projects Portfolio
