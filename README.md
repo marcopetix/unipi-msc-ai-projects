@@ -68,4 +68,4 @@ The results highlight the **potential of behavior-aware transfer learning**, whi
 ### 📦 Project Repository
 
 The full thesis project and code are available in a separate repository:  
-👉 [π-PACT Project Repository](https://github.com/marcopetix/pi-pact-repo)  <!-- replace with actual link -->
+👉 [π-PACT Project Repository](https://github.com/marcopetix/msc-thesis-pi-pact)  <!-- replace with actual link -->
